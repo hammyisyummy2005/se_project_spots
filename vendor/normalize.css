@@ -1,7 +1,6 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  scrollbar-width: none;
 }
 
 body {
@@ -21,13 +20,6 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-}
-
-p {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  max-width: ;
 }
 
 pre {
