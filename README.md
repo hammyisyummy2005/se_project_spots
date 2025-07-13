@@ -16,3 +16,5 @@ Key Features
 
 Deployment
 The project is live and hosted via GitHub Pages.
+https://hammyisyummy2005.github.io/se_project_spots/
+https://drive.google.com/file/d/1O2TLq2XUD9F2ex7cjpB7fAhNbE3ya2sT/view?usp=drive_link

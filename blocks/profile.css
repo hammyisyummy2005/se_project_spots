@@ -23,7 +23,7 @@
   font-weight: 500;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   line-height: 32px;
-  width: 420px;
+  max-width: 420px;
   color: #212121;
   font-size: 32px;
   text-overflow: ellipsis;
@@ -46,6 +46,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+   max-width: 420px;
 }
 
 .profile__pencil-image {
@@ -124,9 +125,6 @@
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
-  }
-
-  .profile__description {
   }
 
   .profile__edit-button {
