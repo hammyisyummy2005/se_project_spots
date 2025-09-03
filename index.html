@@ -25,12 +25,12 @@
           <div class="profile__column">
             <h1 class="profile__name">Bessie Coleman</h1>
             <p class="profile__description">Civil Aviator</p>
-            <button type="button" class="profile__edit-btn">
-              <img src="./images/pencil.svg" alt="Pencil icon" />Edit Profile
+            <button type="button" class="profile__edit-button">
+              <img src="./images/pencil.svg" alt="Pencil icon" class="profile__pencil-image" />Edit Profile
             </button>
           </div>
-          <button type="button" class="profile__add-btn">
-            <img src="./images/Plus.svg" alt="Plus icon" />New Post
+          <button type="button" class="profile__add-button">
+            <img src="./images/Plus.svg" alt="Plus icon" class="profile__plus-icon" />New Post
           </button>
         </section>
         <section class="cards page__section">
@@ -43,7 +43,7 @@
               />
               <div class="card__content">
                 <h2 class="card__title">Val Thorens</h2>
-                <button type="button" class="card__like-btn"></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -54,7 +54,7 @@
               />
               <div class="card__content">
                 <h2 class="card__title">Restaurant terrace</h2>
-                <button type="button" class="card__like-btn"></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -65,7 +65,7 @@
               />
               <div class="card__content">
                 <h2 class="card__title">An outdoor cafe</h2>
-                <button type="button" class="card__like-btn"></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -78,7 +78,7 @@
                 <h2 class="card__title">
                   A very long bridge, over the forest and through the trees
                 </h2>
-                <button type="button" class="card__like-btn"></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -89,7 +89,7 @@
               />
               <div class="card__content">
                 <h2 class="card__title">Tunnel with morning light</h2>
-                <button type="button" class="card__like-btn"></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
@@ -100,13 +100,17 @@
               />
               <div class="card__content">
                 <h2 class="card__title">Mountain house</h2>
-                <button type="button" class="card__like-btn"></button>
+                <button type="button" class="card__like-button"></button>
               </div>
             </li>
           </ul>
         </section>
       </main>
-      <footer class="footer">2025 &copy; Spots</footer>
+      <footer class="footer">
+        <p class="footer__title">2025 &copy; Spots</p>
+      </footer>
+      
+      <!-- Edit Profile Modal -->
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
@@ -136,6 +140,8 @@
           </form>
         </div>
       </div>
+      
+      <!-- New Post Modal -->
       <div class="modal" id="new-post-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
